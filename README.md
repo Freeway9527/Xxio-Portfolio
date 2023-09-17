@@ -28,7 +28,7 @@ Contact Me: Provided is my contact information, and also a contact form for anyo
 
 Screen shot of Project:
 
-![Alt text](assets/images/challege2_SS.jpg)
+![Challenge 2 screen shot](assets/images/challege2_SS.jpg)
 
 
 
