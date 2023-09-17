@@ -1,7 +1,7 @@
-body{
+body {
   background-color: gray;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 0px;
+  margin: 0;
   padding: 0;
   min-height: 100vh;
   display: flex;
@@ -18,7 +18,7 @@ body{
   float: left;
   color: #000000;
   text-align: center;
-  padding: 20px 5px;
+  padding: 20px 10px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -33,47 +33,47 @@ body{
 }
 
 /*** container for contact tab ***/
-.container{
+.container {
   width: 80%;
   margin: 50px auto;
 }
 
-.contact-box{
+.contact-box {
   background: white;
   display: flex;
 }
 
-.contact-left{
+.contact-left {
   flex-basis: 100%;
   padding: 40px 60px;
 }
 
-.contact-right{
+.contact-right {
   flex-basis: 60%;
   padding: 45px;
   background: rgb(49, 49, 49);
 }
 
 /***get in contact left display***/
-h1{
+h1 {
   margin-bottom: 10px;
 }
 
-.container p{
+.container p {
   margin-bottom: 40px;
 }
 
-.input-row{
-  display:flex;
+.input-row {
+  display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.input-row .input-group{
+.input-row .input-group {
   flex-basis: 45%;
 }
 
-input{
+input {
   width: 100%;
   border: none;
   border-bottom: 1px solid black;
@@ -81,7 +81,7 @@ input{
   padding-bottom: bottom;
 }
 
-textarea{
+textarea {
   width: 100%;
   border: 1px solid black;
   outline: none;
@@ -89,14 +89,14 @@ textarea{
   box-sizing: border-box;
 }
 
-label{
+label {
   margin-bottom: 6px;
   display: block;
   color: black;
 }
 
 /***button***/
-button{
+button {
   background: black;
   width: 100px;
   height: 25px;
@@ -105,28 +105,28 @@ button{
   outline: none;
   color: white;
   margin-top: 20px;
-  box-shadow:  0px 5px 15px 0px black;
+  box-shadow: 0px 5px 15px 0px black;
 }
 
 /***contact-right display box***/
-.contact-left h3{
+.contact-left h3 {
   color: black;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
-.contact-right h3{
+.contact-right h3 {
   color: white;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
-tr td:first-child{
-  color:white;
+tr td:first-child {
+  color: white;
   padding-right: 30px;
 }
 
-tr td{
+tr td {
   color: white;
   padding-top: 40px;
 }
@@ -137,15 +137,15 @@ textarea {
 }
 
 /***about me***/
-.index{
+.index {
   display: flex;
   width: 50%;
   margin: 5% auto auto auto;
   border-radius: 15px;
-  
+
 }
 
-.picture{   
+.picture {
   width: auto;
   float: left;
   margin: 5px;
@@ -156,7 +156,7 @@ textarea {
   border-radius: 15px;
 }
 
-.picture img{
+.picture img {
   width: 150px;
   height: 150;
   border-radius: 50%;
@@ -166,20 +166,18 @@ textarea {
   shape-outside: circle();
 }
 
-.index h1{
+.index h1 {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p{
+p {
   text-align: justify;
   line-height: 20px;
 }
 
 footer {
-  margin-top: auto; 
+  margin-top: auto;
 }
-
-
